@@ -1,0 +1,8 @@
+{
+  "defaultSchema": "dataform",
+  "assertionSchema": "dataform_assertions",
+  "warehouse": "bigquery",
+  "defaultDatabase": "q-gcp-01778-ford-tm-23-12",
+  "defaultLocation": "US"
+}
+    
