@@ -1,0 +1,9 @@
+config {
+    type: "table",
+    description: "this table calculates sum from the source view"
+}
+
+SELECT
+  SUM(count) AS sum
+FROM
+  ${ref("source_view")}
