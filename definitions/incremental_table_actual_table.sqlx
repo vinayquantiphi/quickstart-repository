@@ -1,0 +1,8 @@
+config {
+    type: "table"
+}
+
+SELECT
+* 
+ FROM `q-gcp-01778-ford-tm-23-12.test_jj.sample_data_source` 
+
