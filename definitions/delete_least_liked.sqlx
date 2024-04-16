@@ -1,0 +1,8 @@
+config {
+    type: "operations",
+    tags: ["least_liked"],
+    dependencies: ["source"]
+}
+
+delete from dataform.source where fruit='pears';
+delete from dataform.source where fruit='bananas';

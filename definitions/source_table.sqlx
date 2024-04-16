@@ -1,10 +1,11 @@
 config {
-    type: "view"
+    type: "table",
+    name: "source",
+    tags: ["favourite","least_liked"]
 }
-
 SELECT
   "apples" AS fruit,
-  2 AS count
+  3 AS count
 UNION ALL
 SELECT
   "oranges" AS fruit,
